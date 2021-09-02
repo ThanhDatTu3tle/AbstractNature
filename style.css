@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.container-page {
+    display: flex;
+    flex-direction: row;
+    width: 1500px;
+    height: 1300px;
+    background-color: #d2d2d2;
+    margin: 100px 20px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 1300px;
+    margin: 50px 15px;
+}
+
+.title {
+    width: 200px;
+    font-size: 50px;
+    margin: 0px 0px 50px 50px;
+}
+
+.img-left {
+    width: 350px;
+    height: 550px;
+}
+
+.content-left {
+    display: flex;
+    margin: 70px 0px 100px 0px;
+    justify-content: center;
+}
+
+.highlight {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-right: 70px;
+}
+
+#dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: black;
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+
+.middle {
+    display: flex;
+    width: 80px;
+    height: 1300px;
+    background-color: black;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    height: 1300px;
+    margin: 45px 15px 105px 45px;
+}
+
+.content-right-left {
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+
+.content-right-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 800px;
+    margin-bottom: 80px;
+}
+
+.img-right {
+    width: 960px;
+    height: 600px;
+    margin-left: 30px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: -250px;
+    margin-top: 30px;
+}
+
+.author {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    z-index: 1;
+    margin: 200px 0px 0px 1300px;
+    width: 550px;
+    height: 300px;
+    background: rgb(85,110,144);
+    background: linear-gradient(90deg, rgba(85,110,144,1) 0%, rgba(30,67,96,1) 83%, rgba(16,50,79,1) 100%);
+}
+
+.author-left {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 250px;
+}
+
+.top {
+    font-size: 55px;
+    margin: 20px 0px 100px 20px;
+}
+
+.bot {
+    margin: 50px 0px 0px 200px;
+}
+
+.author-right {
+    width: 200px;
+    height: 150px;
+    margin-top: 150px;
+}
